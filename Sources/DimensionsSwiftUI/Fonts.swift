@@ -1,5 +1,5 @@
 //
-//  FontSize.swift
+//  Fonts.swift
 //
 //
 //  Created by carlos.gonzalez.local on 2/5/24.
@@ -7,16 +7,16 @@
 
 import Foundation
 
-/** `Font`
+/** `Fonts
  Get default fonts size for your app. You have thre options for the most useful font types: callout, body, header & title.
  You can use it following the next step (see in `OverView`):
  ```swift
  Text("Welcome to SwiftUI")
-    .font("your font"(Font.mediumBody))
+    .font("your custom font"(Fonts.mediumBody))
  
  ```
  */
-public enum Font {
+public enum Fonts {
     public static let smallCallout: CGFloat = 8
     public static let mediumCallout: CGFloat = 10
     public static let bigCallout: CGFloat = 12

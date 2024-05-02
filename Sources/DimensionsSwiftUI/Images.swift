@@ -1,5 +1,5 @@
 //
-//  Image.swift
+//  Images.swift
 //
 //
 //  Created by carlos.gonzalez.local on 2/5/24.
@@ -12,7 +12,7 @@ import Foundation
  You can use it following the next step (see in `OverView`):
  ```swift
  Image("your image")
-    .frame(height: Image.normalImage)
+    .frame(height: Images.normalImage)
  
  Text("A wonderful world")
  ```

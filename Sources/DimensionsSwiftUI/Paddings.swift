@@ -1,5 +1,5 @@
 //
-//  Padding.swift
+//  Paddings.swift
 //
 //
 //  Created by carlos.gonzalez.local on 2/5/24.
@@ -7,17 +7,17 @@
 
 import Foundation
 
-/** `Padding`
+/** `Paddings`
  Get default paddings for your app. You have the most useful paddings.
  You can use it following the next step (see in `OverView`):
  ```swift
  Text("Welcome to SwiftUI)
-    .padding(.bottom, Padding.bigPaddingS)
+    .padding(.bottom, Paddings.bigPaddingS)
  
  Text("A wonderful world")
  ```
  */
-public enum Padding {
+public enum Paddings {
     public static let smallPaddingXs: CGFloat = 5
     public static let mediumPaddingXs: CGFloat = 8
     public static let bigPaddingXs: CGFloat = 12
