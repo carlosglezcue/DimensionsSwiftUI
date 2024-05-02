@@ -7,7 +7,7 @@
 
 import Foundation
 
-/** `Image`
+/** `Images`
  Get default image size for your app. You have the most useful image size.
  You can use it following the next step (see in `OverView`):
  ```swift
@@ -17,7 +17,7 @@ import Foundation
  Text("A wonderful world")
  ```
  */
-public enum Image {
+public enum Images {
     public static let extraSmallImage: CGFloat = 75
     public static let smallImage: CGFloat = 90
     public static let normalImage: CGFloat = 100
